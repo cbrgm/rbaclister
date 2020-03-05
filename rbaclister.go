@@ -31,7 +31,7 @@ func main() {
 			Name:  "apiserverUrl",
 			Usage: "kubernetes apiserver url",
 			Destination: &appConfig.ApiServerAddr,
-			Value: "localhost:8001",
+			Value: "127.0.0.1:8001",
 		},
 		cli.StringFlag{
 			Name:  "output",
