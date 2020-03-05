@@ -1,7 +1,9 @@
 /data.yml
 /rbaclister
 /vendor/
-/output
+/output/*
+rbaclister
+
 
 *coverage.out
 
